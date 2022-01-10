@@ -1,7 +1,7 @@
-http = require('http')
-const fs = require('fs')
-const url = require('url') 
-const PORT = process.evn.PORT||5000 
+var http = require('http')
+var fs = require('fs')
+var url = require('url') 
+const PORT = process.evn.PORT || 5000 
 http.createServer(function(req,res){
     var q = url.parse(req.url,true) //taking the url request storing in q checking the format by printing q 
     // console.log(q)
