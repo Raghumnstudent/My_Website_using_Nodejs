@@ -1,0 +1,12 @@
+{
+  "name": "creating_website_using_node",
+  "version": "16.13.0",
+  "description": "My_webpage_using_Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Raghu",
+  "license": "ISC"
+}
