@@ -21,5 +21,5 @@ http.createServer(function(req,res){
         res.write(data)
         return res.end()
     })
-}).listen(5000)
+}).listen(PORT)
 console.log('Server listening on 5000..... ')
